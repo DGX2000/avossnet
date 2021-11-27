@@ -1,0 +1,158 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    
+    font-family: Quicksand Light, Helvetica, sans-serif;
+    font-size: 1.1em;
+    
+    background-color: #181a1b;
+    color: #dad9d7;
+}
+
+a {
+    color: #6cf3c9;
+}
+
+a:hover {
+    color: #1ebf8c;
+}
+
+/* -------------------------------------------------------------------------- */
+
+#header_container {
+    min-height: 100px;
+    padding: 8px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+#logo_container {
+    width: 30vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    height: 80%;
+}
+
+#menu_container {
+    width: 70vw;
+    padding-right: 2vw;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#menu_container a {
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    font-weight: bold;
+    font-size: 1.3em;
+    
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+/* -------------------------------------------------------------------------- */
+
+#banner_container {
+    min-height: 150px;
+    
+    background-color: #132a32;
+    border: 1px solid #35383b;
+    
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#heading_container {
+    margin: auto;
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+/* -------------------------------------------------------------------------- */
+
+#main_container {
+    min-height: 500px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+#main_content {
+    width: 75%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-top: 32px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+#footer_container {
+    min-height: 200px;
+    padding: 8px;
+    
+    background-color: #28869b;
+    border-top: 1px solid #35383b;
+    color: #fff;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#copyright_container {
+    padding: 4px;
+    
+    background-color: #000;
+    color: #fff;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_column {
+    width: 30vw;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: #fff;
+}
+
+.footer_column a {
+    color: #fff;
+}
+
+#copyright_text {
+    
+}
+
+.horizontal_stretch {
+    width: 100%;
+}
+
+#copyright_legal {
+    
+}

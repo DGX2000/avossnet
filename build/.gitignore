@@ -1,0 +1,11 @@
+# Ignore build directories
+.cmake/
+CMakeFiles/
+Testing/
+
+# Ignore build files
+avossnet
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+qtcsettings.cmake

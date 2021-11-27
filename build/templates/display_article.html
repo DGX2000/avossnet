@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/style/style.css">
+        <link rel="shortcut icon" type="image/svg" href="/static/style/favicon.svg"/>
+        <title>avoss.net - {{title}}</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <div id="header_container">
+                <div id="logo_container">
+                    <img id="logo" src="/static/style/logo.svg" alt="AVOSS Home"/>
+                </div>
+                <nav id="menu_container">
+                    Blog about some topics in ...<br>
+                    Short description here...
+                </nav>
+            </div>
+        </header>
+        
+        
+        
+        <div id="banner_container">
+            <div id="heading_container">
+                {{title}}<br>
+                {{date}}
+            </div>
+        </div>
+        
+        <main role="main">
+            <div id="main_container">
+                <div id="main_content">
+                    {{{content}}}
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <div id="footer_container">
+                <div class="footer_column">
+                    <h2>Social</h2>
+                    <a>GitHub</a>
+                    <a>YouTube</a>
+                    <a>sd</a>
+                </div>
+                <div class="footer_column">
+                    <h2>Legal</h2>
+                    <a>Impressum (Inprint)</a>
+                    <a>Data Privacy (GDPR)</a>
+                </div>
+            </div>
+        </footer>
+        
+        <div id="copyright_container">
+            <span id="copyright_text">
+                Footer Text
+            </span>
+        </div>
+    </body>
+</html>
